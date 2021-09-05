@@ -10,7 +10,7 @@ const itemSchema = new Schema({
 
   itemName: {
     type: String,
-    required: false,
+    required: true,
   },
 });
 
